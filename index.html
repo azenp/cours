@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Course d'Orientation - Samer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Course d'Orientation - Samer</h1>
+    <div id="intro">
+      <p>Bienvenue ! Clique sur démarrer pour commencer la course d’orientation.</p>
+      <button onclick="startGame()">Commencer</button>
+    </div>
+
+    <div id="chronometre" class="hidden">
+      ⏱ Temps écoulé : <span id="timer">00:00</span>
+    </div>
+
+    <div id="game" class="hidden">
+      <div id="step">
+        <p id="enigme-text"></p>
+        <input type="text" id="answer-input" placeholder="Votre réponse ici..." />
+        <button onclick="checkAnswer()">Valider</button>
+        <p id="feedback" class="error"></p>
+      </div>
+
+      <div id="gps-check" class="hidden">
+        <p>Va au point : <span id="gps-coords"></span></p>
+        <button onclick="checkGPS()">Je suis ici</button>
+        <p id="gps-result"></p>
+      </div>
+    </div>
+
+    <div id="end" class="hidden">
+      <h2>🎉 Bravo ! Tu as terminé la course !</h2>
+      <p>Temps total : <span id="final-time"></span></p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
