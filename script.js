@@ -3,17 +3,22 @@ let enigmes = [
   {
     question: "Je suis un lieu de prière situé tout en haut de Samer, qui suis-je ?",
     reponse: "calvaire",
-    coords: { lat: 50.67480, lon: 1.80120 }
+    coords: { lat: 46.20145860650317, lon: 5.820495572350728 }
   },
   {
     question: "Je suis un endroit où les enfants vont apprendre à Samer.",
     reponse: "école",
-    coords: { lat: 50.67630, lon: 1.79840 }
+    coords: { lat: 46.20145860650317, lon: 5.820495572350728 }
   },
   {
     question: "Je suis un bâtiment où travaille le maire.",
     reponse: "mairie",
-    coords: { lat: 50.67560, lon: 1.79710 }
+    coords: { lat: 46.20145860650317, lon: 5.820495572350728 }
+  },
+  {
+    question: "Je suis un lieu de repot et de verdure.",
+    reponse: "Jardin de l'abbaye.",
+    coords: { lat: 46.20145860650317, lon: 5.820495572350728 }
   }
 ];
 
