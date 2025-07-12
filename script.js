@@ -3,22 +3,32 @@ let enigmes = [
   {
     question: "Je suis un lieu de prière situé tout en haut de Samer, qui suis-je ?",
     reponse: "calvaire",
-    coords: { lat: 46.20145860650317, lon: 5.820495572350728 }
+    coords: { lat: 50.63857639718161, lon: 1.7407606101609256 }
   },
   {
     question: "Je suis un endroit où les enfants vont apprendre à Samer.",
     reponse: "école",
-    coords: { lat: 46.20145860650317, lon: 5.820495572350728 }
+    coords: { lat: 50.63729383989245, lon: 1.7445575608526371 }
   },
   {
     question: "Je suis un bâtiment où travaille le maire.",
     reponse: "mairie",
-    coords: { lat: 46.20145860650317, lon: 5.820495572350728 }
+    coords: { lat: 50.6396705576965, lon: 1.7455409669591149 }
   },
   {
-    question: "Je suis un lieu de repot et de verdure.",
-    reponse: "Jardin de l'abbaye.",
-    coords: { lat: 46.20145860650317, lon: 5.820495572350728 }
+    question: "Je suis un lieu de repos et de verdure ouvert au publique.",
+    reponse: "Jardin de l'abbaye",
+    coords: { lat: 50.6342296242716, lon: 1.7562645139939927 }
+  },
+  {
+    question: "On y achète de la nourriture en grande quantité.",
+    reponse: "supermarché",
+    coords: { lat: 50.638337931190755, lon: 1.759872772284442 }
+    },
+  {
+    question: "https://www.youtube.com/watch?v=NwLZB39EJVQ&list=RDNwLZB39EJVQ&start_radio=1 ps: c'est la fin 😊",
+    reponse: "maison",
+    coords: { lat: 50.63473328180439, lon: 1.7436017177602179 }
   }
 ];
 
